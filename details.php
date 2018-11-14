@@ -11,7 +11,7 @@ if(isset($_GET["id"])) {
 }
 
 if(!isset($item)) {
-  header("location:catalog.php");
+  header("location:catalog.php"); 
   exit;
 }
 
